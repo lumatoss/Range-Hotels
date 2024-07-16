@@ -1,0 +1,16 @@
+.inicio-container {container-type: inline-size;}
+
+@media screen and (min-width: 80rem){
+    .inicio-container {
+    display: flex;
+}
+    .logo {margin-left: 1em}
+
+    .ul-inicio {display: flex;
+    background-color: white;
+    margin-left: 40em;
+    
+    }
+
+    .a-inicio {color: blueviolet;}
+}
